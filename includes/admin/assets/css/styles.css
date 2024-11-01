@@ -1,0 +1,57 @@
+/* Admin styles */
+.wptcd-section-content .wptcd-table-design-type,
+.wptcd-section-content #tabs-2 .only-pro-checkbox,
+.wptcd-section-content #tabs-4 .only-pro-textbox,
+.wptcd-section-content #tabs-4 .only-pro-checkbox {
+    position: relative;
+}
+
+.wptcd-section-content .wptcd-table-design-type.only-pro-radio::after,
+.wptcd-section-content #tabs-2 .only-pro-checkbox::after,
+.wptcd-section-content #tabs-4 .only-pro-textbox::after,
+.wptcd-section-content #tabs-4 .only-pro-checkbox::after {
+    content: "PRO";
+    background-color: #d4d4d4;
+    padding: 5px 4px;
+    font-size: 8px;
+    margin-top: 0px;
+    border-radius: 2px;
+    display: inline-block;
+    position: absolute;
+    font-weight: 600;
+    right: -94px;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+.wptcd-section-content #tabs-2 .only-pro-checkbox::after {
+    padding: 8px 4px;
+    right: -163px;
+}
+
+.wptcd-section-content #tabs-2 #wptcd-show-review-column.only-pro-checkbox::after {
+    right: -205px;
+}
+
+.wptcd-section-content #tabs-4 .only-pro-textbox::after {
+    left: 12px;
+    top: -1px;
+    width: 28px;
+    background: #e1e1e1;
+    padding: 3px 0px;
+    text-align: center;
+    color: #777777;
+}
+
+.wptcd-section-content #tabs-4 .only-pro-checkbox::after {
+    padding: 8px 4px;
+    right: -185px
+}
+
+.wptcd-section-content #tabs-4 #wptcd-show-reset-btn.only-pro-checkbox::after {
+    right: -192px
+}
+
+.wptcd-section-content #tabs-4 #wptcd-show-mini-cart.only-pro-checkbox::after {
+    right: -168px
+}
